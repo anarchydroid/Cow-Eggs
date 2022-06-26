@@ -1,0 +1,103 @@
+body {
+    background-color: white;
+    border-style: solid;
+    border-width: 58px 20px 20px 20px;
+    border-color: #5abff2;
+    padding: 3px 3px 3px 3px;
+    margin: auto;
+}
+
+.header {
+    border: 10px solid black;
+    border-width: 5px;
+    background-color: teal;
+}
+
+.header h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+    color: palevioletred
+}
+
+.LRcow {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.LRcow #intro h3 {
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.history h2 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+
+.history p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+}
+
+.pictures h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+table {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 5px solid red;
+    background-color: black;
+}
+
+.readreviews h2 {
+    text-align: center;
+    color: orangered;
+}  
+
+.people {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(24, 23, 26);
+    background-color: rgb(24, 23, 26)
+}
+
+#trip {
+    display: flex;
+    opacity: 40%;
+    size: 15px, 15px, 15px, 15px;
+}
+
+#pilpo {
+    text-align: right;
+    font-size: 19px;
+    font-style: oblique;
+    font-family: fantasy;
+    color:orange;
+}
+
+#jilly {
+    text-align: left;
+    font-size: 19px;
+    font-style: oblique;
+    font-family: fantasy;
+    color: yellowgreen;
+}
+
+#tim {
+    text-align: center;
+    font-size: 19px;
+    font-style: oblique;
+    font-family: fantasy;
+    color: royalblue;
+}
