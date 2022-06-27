@@ -3,6 +3,18 @@ key logic
 define f.u.c.k.y.o.u. ids as clickable elements
 
 create a function for keeping record of ids that are "clicked"
+	store an array of letters clicked in the proper order
+	if letter is clicked out of order: reset array back to empty
+
+
+
+Every time someone clicks a letter, 
+add it to the array and check to see if it’s complete, 
+incomplete, or out of order
+
+
+If out of order, reset list, if I complete, do nothing
+
 
 order the onclick to only alert when the ids are clicked in order
 
