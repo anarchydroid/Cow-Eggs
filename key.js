@@ -1,6 +1,3 @@
-//let key = //fyarray clicked in order
-
-
 
 document.querySelectorAll('.clickable').forEach(el => {
     el.addEventListener('click', handleLetterClick);

@@ -7,6 +7,10 @@ body {
     margin: auto;
 }
 
+#eggOwner {
+    text-align: center;
+}
+
 .header {
     border: 10px solid black;
     border-width: 5px;

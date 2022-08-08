@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWHomepage</title>
+    <link href='pwhpstyle.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@200&display=swap" rel="stylesheet">
+    <script src="checkOut.js" defer></script>
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <div class="intro">
+        <script id="greeting" src="/paywall hompage directory/greetingHp.js"></script>
+        <h1>Welcome to <span style="color:rgb(252, 235, 7)">Coweggs</span></h1>
+        <h2>If you believe, You will percieve</h2>
+    </div>
+    <div class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Coweggs</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+        </ul>
+    </div>
+    <div class="qanda">
+      <h2 class="question">So what really is a Cowegg?</h2>
+      <img class="mrcow" src="/Gallery/cowfacefixed.png">
+      <p class="answer">Have you ever played a video game? And found an easter egg that the game developers left in the game?
+        The same applies here at Coweggs! The Cowegg itself is the html page, and to unlock it, one must find the secret
+        unlocking sequence to claim ownership of the Cowegg. The secret sequence can be an order of clicks of a certain element.
+        It could be an input into a dialog box. To find the secret sequence, study the page, look at all the elements of the page,
+        and use clues to determine what the secret may be. ANYONE, yes literally anyone, can find the secret to the Cowegg!
+        There is no knowlege of code, or computer science knowlege needed to find the secret. Coweggs is for everyone!
+      </p>
+    </div>
+    <div class="qanda2">
+      <h2 class="question2">How long do I have to find the secret?</h2>
+      <p class="answer2">One minute of time costs 1 USD$. 
+        You can pay and play as much as you want. Once your time runs out,
+        you will be prompted to pay for more time, or quit and try again later.
+      </p>
+    </div>
+    <br><br><br>
+    <div class="playBox">
+      <h2 class="r2p">Ready to earn your first Cowegg?</h2>
+      <p>Click the Button Below!</p>
+      <button id="playBtn">Play!</button>
+      <div id="payBox" class="pb">
+        <div class="pb-content">
+          <div class="pb-header">
+            <span class="close">&times;</span>
+            <h2>Box Header</h2>
+          </div>
+          <div class="pb-body">
+            <form id="payment-form">
+              <div id="payment-element">
+                <!--Stripe.js injects the Payment Element-->
+              </div>
+              <button id="submit">
+                <div class="spinner hidden" id="spinner"></div>
+                <span id="button-text">Pay now</span>
+              </button>
+              <div id="payment-message" class="hidden"></div>
+            </form>
+          </div>
+          <div class="pb-footer">
+            <h3>Box Footer</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <script src="/paywall hompage directory/payBox.js"></script>
+</body>
+</html>
